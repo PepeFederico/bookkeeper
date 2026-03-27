@@ -1,0 +1,9 @@
+name: Verifica Setup Universitario
+on: [push]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Messaggio di test
+        run: echo "Il mio ambiente di CI è ufficialmente pronto!"
