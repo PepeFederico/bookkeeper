@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Messaggio di test
-        run: echo "Il mio ambiente di CI è ufficialmente pronto!"
+        run: echo "Il mio ambiente di CI è ufficialmente pronto all'uso!"
